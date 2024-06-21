@@ -114,7 +114,7 @@ const Form = () => {
                                 </div>
                             
                             <div><button className='w-[60px] h-[60px] sm:w-[100px] sm:h-[100px] bg-green-400 sm:rotate-[20deg] font-bold text-[12px] sm:text-[18px]  text-white
-                            relative sm:left-10 rounded-full sm:rounded-none'>Submit</button></div>
+                            relative sm:left-10 rounded-full sm:rounded-none action-button sm:text-2xl text[12px]'>Submit</button></div>
                         </div>
                     </form>
                 </div>

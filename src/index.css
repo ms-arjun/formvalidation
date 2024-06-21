@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.action-button {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  animation: float 3s infinite; 
+}
